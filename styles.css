@@ -1,0 +1,277 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #1e3c72, #2a5298, #56b4d3);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    color: #ffaa00;
+    text-align: center;
+}
+
+.hero p {
+    color:  #df9800;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.event {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.intro-video {
+    text-align: center;
+}
+
+.pioneers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.pioneer {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pioneer img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 15px;
+}
+
+.pioneer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f8a900;
+}
+
+.pioneer button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #2a5298;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pioneer button:hover {
+    background-color: #07101a;
+    transform: translateY(-3px);
+}
+
+.aircraft-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.aircraft {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aircraft img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 15px;
+}
+
+.aircraft h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f8a900;
+}
+
+.aircraft p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.aircraft:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #1c18f1;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #07101a;
+    transform: translateY(-3px);
+}
+
+.btn-custom {
+    background-color: white;
+    color: #4dc7ff;  
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;  
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.btn-custom:hover {
+    background-color: #2500f7;  
+    color: rgb(255, 255, 255);  
+}
+
+.btn-custom a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-custom-you {
+    background-color: white;
+    color: #ff0000;  
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;  
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-custom-you:hover {
+    background-color: #f70000;  
+    color: rgb(255, 255, 255);  
+}
+
+.btn-custom-you a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.innovation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.innovation-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.innovation-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f8a900;
+}
+
+.innovation-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.innovation-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.pioneers-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pioneer {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+}
+
+.pioneer img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 15px;
+}
+
+.pioneer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f8a900;
+}
+
+.pioneer p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.pioneer:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+}
